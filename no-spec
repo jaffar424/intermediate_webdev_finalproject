@@ -1,9 +1,9 @@
 npx jasmine
-Randomized with seed 04788
+Randomized with seed 82665
 Started
-..
 
 
-2 specs, 0 failures
-Finished in 0.007 seconds
-Randomized with seed 04788 (jasmine --random=true --seed=04788)
+No specs found
+Finished in 0.002 seconds
+Incomplete: No specs found
+Randomized with seed 82665 (jasmine --random=true --seed=82665)

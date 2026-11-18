@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple interest rate calculator to compute interest and total amount.">
+    <meta name="description" content="Interest Rate Calculator for computing simple interest and total amount.">
     <title>Interest Rate Calculator</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -12,22 +12,16 @@
     <div class="container">
         <h1>Interest Rate Calculator</h1>
         <div class="input-wrapper">
-            <div class="wrapper">
-                <label for="principal">Principal Amount</label>
-                <input type="number" id="principal" value="1000" />
-            </div>
+            <label for="principal">Principal Amount</label>
+            <input type="number" id="principal" value="1000" />
         </div>
         <div class="input-wrapper">
-            <div class="wrapper">
-                <label for="rate">Rate (%)</label>
-                <input type="number" id="rate" value="5" />
-            </div>
+            <label for="rate">Rate (%)</label>
+            <input type="number" id="rate" value="5" />
         </div>
         <div class="input-wrapper">
-            <div class="wrapper">
-                <label for="time">Time (Years)</label>
-                <input type="number" id="time" value="1" />
-            </div>
+            <label for="time">Time (Years)</label>
+            <input type="number" id="time" value="1" />
         </div>
         <button id="calculate-btn" onclick="calculate()">Calculate</button>
         <div id="result"></div>
