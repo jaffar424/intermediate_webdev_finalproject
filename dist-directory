@@ -1,1 +1,7 @@
 npx webpack
+asset favicon.ico 15 KiB [emitted] [from: favicon.ico] [copied]
+asset style.css 1010 bytes [emitted] [from: style.css] [copied] [minimized]
+asset index.html 910 bytes [emitted] [minimized]
+asset main.js 0 bytes [compared for emit] [minimized] (name: main)
+./script.js 563 bytes [built] [code generated]
+webpack 5.112.2 compiled successfully in 756 ms
